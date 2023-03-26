@@ -96,7 +96,6 @@
     width: 60%;
   }
 
-  /* trapez */
   .newsletter__input-decoration {
     position: absolute;
     right: 0%;
@@ -105,17 +104,6 @@
     border-left: 70px solid transparent;
     z-index: 0;
   }
-
-  /* wklejony obrazek */
-  /* .newsletter__input-decoration-image {
-    display: block;
-    position: absolute;
-    z-index: 0;
-    right: -3%;
-    top: 0%;
-    width: 46%;
-    height: 200px;
-  } */
 
   .newsletter__dots {
     display: block;
