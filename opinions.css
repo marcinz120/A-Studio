@@ -1,0 +1,132 @@
+.opinions__wrap {
+  max-width: 1200px;
+  width: calc(100% - 40px);
+  margin: 0 auto 50px;
+}
+
+.opinions__head {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.opinions__text {
+  font-size: 16px;
+  line-height: 16px;
+  color: #555;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.opinions__text-box-wrap {
+  margin-bottom: 20px;
+}
+
+.opinions__client-photo {
+  width: 80%;
+  border-radius: 50% 0 50% 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.opinions__aside-head {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.opinions__text {
+  font-size: 16px;
+  line-height: 16px;
+  color: #555;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.opinions__circle,
+.opinions__dots {
+  display: none;
+}
+
+.opinions__clients-photo-wrap {
+  position: relative;
+  margin: 0 auto;
+}
+
+.opinions__clients-photo-block {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  mix-blend-mode: multiply;
+}
+
+.opinions__aside-circle {
+  background-color: #fff5db;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  left: 16%;
+  top: 36%;
+}
+
+@media (min-width: 768px) {
+  .opinions__wrap {
+    margin: -1px auto 110px;
+  }
+  .opinions__client-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .opinions__text-box-wrap {
+    margin-bottom: 40px;
+  }
+
+  .opinions__client-photo-box {
+    position: relative;
+  }
+
+  .opinions__circle {
+    display: inherit;
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: solid 8px #ff007a;
+    z-index: -2;
+    left: 8%;
+    top: 66%;
+  }
+
+  .opinions__dots {
+    display: block;
+    position: absolute;
+    left: 10%;
+    z-index: -2;
+    top: -10%;
+    left: 16%;
+  }
+
+  .opinions__aside-circle {
+    width: 250px;
+    height: 250px;
+    top: 36%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .opinions__aside-wrap {
+    display: flex;
+  }
+  .opinions__text-box-wrap {
+    display: block;
+  }
+  .opinions__aside-circle {
+    width: 110px;
+    height: 110px;
+    top: 34%;
+  }
+}

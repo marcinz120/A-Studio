@@ -1,0 +1,148 @@
+.hero {
+  margin-bottom: 50px;
+}
+.hero__content {
+  padding: 30px 0;
+  position: relative;
+}
+
+.hero__dots {
+  display: none;
+}
+
+.hero__head {
+  position: relative;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.hero__text {
+  position: relative;
+  z-index: 1;
+  font-size: 16px;
+  line-height: 16px;
+  color: #555;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.hero__button {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  background: #2639ed;
+  border-radius: 60px;
+  padding: 20px 40px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.hero__button:hover {
+  background: #0011a7;
+}
+
+.hero__image {
+  display: block;
+  width: 100%;
+  border-bottom-left-radius: 120px;
+}
+
+.hero__circle {
+  display: none;
+}
+
+.hero__rectangle {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    margin-bottom: 100px;
+  }
+
+  .hero__image-wrap {
+    position: relative;
+  }
+
+  .hero__image {
+    width: 80%;
+    left: 14%;
+    z-index: 1;
+    position: relative;
+    border-bottom-left-radius: 220px;
+  }
+
+  .hero__circle {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background: #dae9ff;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 8%;
+    left: 4%;
+  }
+
+  .hero__rectangle {
+    display: block;
+    width: 180px;
+    height: 140px;
+    background: #fff5db;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    right: 22%;
+    top: 90%;
+    z-index: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    height: 400px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .hero__content {
+    width: 50%;
+  }
+  .hero__image-wrap {
+    height: 100%;
+  }
+  .hero__image {
+    width: 90%;
+  }
+  .hero__rectangle {
+    top: 80%;
+  }
+
+  .hero__circle {
+    left: 0%;
+  }
+
+  .hero__dots {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: calc(100% - 77px);
+    left: -40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero__rectangle {
+    top: 90%;
+  }
+
+  .hero__circle {
+    left: 2%;
+  }
+}

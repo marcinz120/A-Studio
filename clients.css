@@ -1,0 +1,54 @@
+.clients__head {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.clients__text {
+  font-size: 16px;
+  line-height: 16px;
+  color: #555;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.blog__square {
+  background-color: #eff1ff;
+  width: 100px;
+  height: 100px;
+  border-bottom-right-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  left: 5px;
+}
+
+.clients__wrap {
+  margin-top: 40px;
+}
+
+.clients__logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: space-around;
+  width: calc(100% - 40px);
+  margin: 0px auto 70px;
+}
+
+.clients__logo {
+  width: 120px;
+}
+
+@media (min-width: 1024px) {
+  .clients__text-box {
+    width: 35%;
+  }
+  .container {
+    display: flex;
+  }
+
+  .clients__logo-container {
+    align-items: center;
+    margin: 0 auto;
+  }
+}
